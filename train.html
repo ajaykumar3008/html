@@ -1,7 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+table{
+width:100%;
+border:1px solid;
+border-collapse:collapse;
+
+}
+tr,th,td{
+border:1px solid;
+border-collapse:collapse;
+
+}
 body {
 background-image: url("https://static.toiimg.com/photo/msid-92440904,width-96,height-65.cms");
 background-size: cover;
@@ -12,8 +24,8 @@ justify-content: center;
 align-items: center;
 }
 form {
-width: 700px;
-height: 400px;
+width: 900px;
+height: 700px;
 background-color: rgba(255, 255, 255, 0.8);
 padding: 20px;
 border-radius: 10px;
@@ -34,11 +46,6 @@ font-style: italic;
 font-weight: bold;
 }
 
-form label {
-display: inline-block;
-width: 150px;
-margin-bottom: 10px;
-}
 
 </style>
 </head>
@@ -57,7 +64,21 @@ margin-bottom: 10px;
 <div id="lst">
 <label id="lab1">TRAIN NAME :</label><input list="ls3"><datalist id="ls3"><option>CORAMANDAL EXPRESS</option><option>TIRUMULA EXPRESS</option><option>PURI EXPRESS</option><option>CHENNAI CENTRAL</option></datalist>
 </div><br><br><br>
-<button id="submit">SUBMIT</button>
+<button id="submit">SUBMIT</button><br><br><br>
+<table align="center">
+   <tr>
+    <th>SI.NO</th>
+    <th>NAME</th>
+    <th>AGE</th>
+    <th>GENDER</th>
+    </tr>
+   <tr>
+    <td>1</td>
+    <td>ajay</td>
+    <td>30</td>
+    <td>male</td>
+  </tr>
+</table>
 </form>
 </div>
 </body>
